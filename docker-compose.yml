@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  nullform:
+    image: nullform
+    build:
+      context: .\NUllForm
+      dockerfile: Dockerfile
